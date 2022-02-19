@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Menu extends Component {
+export default class Menu extends React.Component {
   render () {
     return (
       <div>
@@ -33,15 +33,15 @@ export default class Menu extends Component {
             <ul className='sidebar-menu' data-widget='tree'>
               <li className='header'>MAIN NAVIGATION</li>
               <li className='active treeview menu-open'>
-                <a href='Dashboard.html'>
+                <a href='fake_url'>
                   <i className='fa fa-dashboard' /> <span>Dashboard</span>
                   <span className='pull-right-container'>
                     <i className='fa fa-angle-left pull-right' />
                   </span>
                 </a>
                 <ul className='treeview-menu'>
-                  <li><a href='Dashboard.html'><i className='fa fa-circle-o' /> Dashboard v1</a></li>
-                  <li className='active'><a href='index2.html'><i className='fa fa-circle-o' /> Dashboard v2</a></li>
+                  <li><a href='src/ages/Dashboard/Dashboard.js'><i className='fa fa-circle-o' /> Dashboard v1</a></li>
+                  <li className='active'><a href='fake_url'><i className='fa fa-circle-o' /> Dashboard v2</a></li>
                 </ul>
               </li>
               <li className='treeview'>
