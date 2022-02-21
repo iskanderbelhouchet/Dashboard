@@ -40,88 +40,62 @@ export default class Menu extends React.Component {
                   </span>
                 </a>
                 <ul className='treeview-menu'>
-                  <li><a href='src/ages/Dashboard/Dashboard.js'><i className='fa fa-circle-o' /> Dashboard v1</a></li>
-                  <li className='active'><a href='fake_url'><i className='fa fa-circle-o' /> Dashboard v2</a></li>
+                  <li><a href='src/ages/Dashboard/Dashboard.js'><i className='fa fa-circle-o' /> Dashboard Admin</a></li>
+                  <li className='active'><a href='fake_url'><i className='fa fa-circle-o' /> Dashboard Teacher</a></li>
                 </ul>
               </li>
               <li className='treeview'>
                 <a href='fake_url'>
-                  <i className='fa fa-files-o' />
-                  <span>Layout Options</span>
-                  <span className='pull-right-container'>
-                    <span className='label label-primary pull-right'>4</span>
-                  </span>
-                </a>
-                <ul className='treeview-menu'>
-                  <li><a href='pages/layout/top-nav.html'><i className='fa fa-circle-o' /> Top Navigation</a></li>
-                  <li><a href='pages/layout/boxed.html'><i className='fa fa-circle-o' /> Boxed</a></li>
-                  <li><a href='pages/layout/fixed.html'><i className='fa fa-circle-o' /> Fixed</a></li>
-                  <li><a href='pages/layout/collapsed-sidebar.html'><i className='fa fa-circle-o' /> Collapsed Sidebar</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href='pages/widgets.html'>
-                  <i className='fa fa-th' /> <span>Widgets</span>
-                  <span className='pull-right-container'>
-                    <small className='label pull-right bg-green'>new</small>
-                  </span>
-                </a>
-              </li>
-              <li className='treeview'>
-                <a href='fake_url'>
-                  <i className='fa fa-pie-chart' />
-                  <span>Charts</span>
+                  <i className='fa fa-user' />
+                  <span>Teachers</span>
                   <span className='pull-right-container'>
                     <i className='fa fa-angle-left pull-right' />
                   </span>
                 </a>
                 <ul className='treeview-menu'>
-                  <li><a href='pages/charts/chartjs.html'><i className='fa fa-circle-o' /> ChartJS</a></li>
-                  <li><a href='pages/charts/morris.html'><i className='fa fa-circle-o' /> Morris</a></li>
-                  <li><a href='pages/charts/flot.html'><i className='fa fa-circle-o' /> Flot</a></li>
-                  <li><a href='pages/charts/inline.html'><i className='fa fa-circle-o' /> Inline charts</a></li>
+                  <li><a href='pages/charts/chartjs.html'><i className='fa fa-circle-o' /> All Teachers</a></li>
+                  <li><a href='pages/charts/morris.html'><i className='fa fa-circle-o' /> Add Teacher</a></li>
+                  <li><a href='pages/charts/flot.html'><i className='fa fa-circle-o' /> Edit Teacher</a></li>
                 </ul>
               </li>
               <li className='treeview'>
                 <a href='fake_url'>
-                  <i className='fa fa-laptop' />
-                  <span>UI Elements</span>
+                  <i className='fa fa-users' />
+                  <span>Students</span>
                   <span className='pull-right-container'>
                     <i className='fa fa-angle-left pull-right' />
                   </span>
                 </a>
                 <ul className='treeview-menu'>
-                  <li><a href='pages/UI/general.html'><i className='fa fa-circle-o' /> General</a></li>
-                  <li><a href='pages/UI/icons.html'><i className='fa fa-circle-o' /> Icons</a></li>
-                  <li><a href='pages/UI/buttons.html'><i className='fa fa-circle-o' /> Buttons</a></li>
-                  <li><a href='pages/UI/sliders.html'><i className='fa fa-circle-o' /> Sliders</a></li>
-                  <li><a href='pages/UI/timeline.html'><i className='fa fa-circle-o' /> Timeline</a></li>
-                  <li><a href='pages/UI/modals.html'><i className='fa fa-circle-o' /> Modals</a></li>
+                  <li><a href='pages/UI/general.html'><i className='fa fa-circle-o' /> All Students</a></li>
+                  <li><a href='pages/UI/icons.html'><i className='fa fa-circle-o' /> Add Student</a></li>
+                  <li><a href='pages/UI/buttons.html'><i className='fa fa-circle-o' /> Edit Student</a></li>
                 </ul>
               </li>
               <li className='treeview'>
                 <a href='fake_url'>
-                  <i className='fa fa-edit' /> <span>Forms</span>
+                  <i className='fa fa-book' /> <span>Courses</span>
                   <span className='pull-right-container'>
                     <i className='fa fa-angle-left pull-right' />
                   </span>
                 </a>
                 <ul className='treeview-menu'>
-                  <li><a href='pages/forms/general.html'><i className='fa fa-circle-o' /> General Elements</a></li>
-                  <li><a href='pages/forms/advanced.html'><i className='fa fa-circle-o' /> Advanced Elements</a></li>
-                  <li><a href='pages/forms/editors.html'><i className='fa fa-circle-o' /> Editors</a></li>
+                  <li><a href='pages/forms/general.html'><i className='fa fa-circle-o' /> All Courses</a></li>
+                  <li><a href='pages/forms/advanced.html'><i className='fa fa-circle-o' /> Add Courses</a></li>
+                  <li><a href='pages/forms/editors.html'><i className='fa fa-circle-o' /> Edit Courses</a></li>
                 </ul>
               </li>
               <li className='treeview'>
                 <a href='fake_url'>
-                  <i className='fa fa-table' /> <span>Tables</span>
+                  <i className='fa fa-table' /> <span>Departments</span>
                   <span className='pull-right-container'>
                     <i className='fa fa-angle-left pull-right' />
                   </span>
                 </a>
                 <ul className='treeview-menu'>
-                  <li><a href='pages/tables/simple.html'><i className='fa fa-circle-o' /> Simple tables</a></li>
-                  <li><a href='pages/tables/data.html'><i className='fa fa-circle-o' /> Data tables</a></li>
+                  <li><a href='pages/tables/simple.html'><i className='fa fa-circle-o' /> All Departments</a></li>
+                  <li><a href='pages/tables/data.html'><i className='fa fa-circle-o' /> Add Departments</a></li>
+                  <li><a href='pages/tables/data.html'><i className='fa fa-circle-o' /> Edit Departments</a></li>
                 </ul>
               </li>
               <li>
@@ -164,35 +138,15 @@ export default class Menu extends React.Component {
               </li>
               <li className='treeview'>
                 <a href='fake_url'>
-                  <i className='fa fa-share' /> <span>Multilevel</span>
+                  <i className='fa fa-share' /> <span>Roles and Permissions</span>
                   <span className='pull-right-container'>
                     <i className='fa fa-angle-left pull-right' />
                   </span>
                 </a>
                 <ul className='treeview-menu'>
-                  <li><a href='fake_url'><i className='fa fa-circle-o' /> Level One</a></li>
-                  <li className='treeview'>
-                    <a href='fake_url'><i className='fa fa-circle-o' /> Level One
-                      <span className='pull-right-container'>
-                        <i className='fa fa-angle-left pull-right' />
-                      </span>
-                    </a>
-                    <ul className='treeview-menu'>
-                      <li><a href='fake_url'><i className='fa fa-circle-o' /> Level Two</a></li>
-                      <li className='treeview'>
-                        <a href='fake_url'><i className='fa fa-circle-o' /> Level Two
-                          <span className='pull-right-container'>
-                            <i className='fa fa-angle-left pull-right' />
-                          </span>
-                        </a>
-                        <ul className='treeview-menu'>
-                          <li><a href='fake_url'><i className='fa fa-circle-o' /> Level Three</a></li>
-                          <li><a href='fake_url'><i className='fa fa-circle-o' /> Level Three</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href='fake_url'><i className='fa fa-circle-o' /> Level One</a></li>
+                  <li><a href='fake_url'><i className='fa fa-circle-o' /> All Roles </a></li>
+                  <li><a href='fake_url'><i className='fa fa-circle-o' /> Add Role </a></li>
+                  <li><a href='fake_url'><i className='fa fa-circle-o' /> Edit Role</a></li>
                 </ul>
               </li>
               <li><a href='https://adminlte.io/docs'><i className='fa fa-book' /> <span>Documentation</span></a></li>
