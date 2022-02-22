@@ -1,20 +1,20 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default class AddTeacher extends React.Component {
+export default class AddStudent extends Component {
   render () {
     return (
       <div className='content-wrapper'>
         <section className='content-header'>
           <h1>
-            Add Teacher
+            Add Student
           </h1>
           <ol className='breadcrumb'>
             <li><a href='fake-url'><i className='fa fa-dashboard' /> Home</a></li>
-            <li><a href='fake-url'>Forms</a></li>
-            <li className='active'>General Elements</li>
+            <li><a href='fake-url'>Students</a></li>
+            <li className='active'>Add Student</li>
           </ol>
         </section>
-        {/* Main content */}
+
         <section className='content'>
           <div className='row'>
             <div className='col-md-12'>
@@ -42,7 +42,7 @@ export default class AddTeacher extends React.Component {
                     </div>
 
                     <div className='form-group col-md-6 '>
-                      <label htmlFor='exampleInputId'>Id Teacher </label>
+                      <label htmlFor='exampleInputId'>Id Student </label>
                       <div className='input-group'>
                         <span className='input-group-addon'><i className='fa fa-user' /></span>
                         <input type='email' className='form-control' placeholder='Email' />
@@ -77,7 +77,7 @@ export default class AddTeacher extends React.Component {
                       <input type='password' className='form-control' id='exampleInputPassword1' placeholder='Password' />
                     </div>
 
-                    <div class='form-group col-md-4'>
+                    <div class='form-group col-md-6'>
                       <label>Gender</label>
                       <select class='form-control'>
                         <option>Homme</option>
@@ -85,21 +85,7 @@ export default class AddTeacher extends React.Component {
                       </select>
                     </div>
 
-                    <div class='form-group col-md-4'>
-                      <label>Department</label>
-                      <select class='form-control'>
-                        <option>Technology</option>
-                        <option>Science</option>
-                        <option>Physique</option>
-                        <option>Mathematique</option>
-                        <option>Business and Entrepreneurship</option>
-                        <option>Personal Development</option>
-                        <option>Marketing</option>
-                        <option>Design</option>
-                      </select>
-                    </div>
-
-                    <div class='form-group col-md-4'>
+                    <div class='form-group col-md-6'>
                       <label>Role</label>
                       <select class='form-control'>
                         <option>Admin</option>

@@ -6,7 +6,7 @@ export default class AllTeachers extends React.Component {
       <div class='content-wrapper'>
         <section class='content-header'>
           <h1>
-            Data Tables
+            All Teachers
           </h1>
           <ol class='breadcrumb'>
             <li><a href='Fake_url'><i class='fa fa-dashboard' /> Home</a></li>
@@ -19,9 +19,12 @@ export default class AllTeachers extends React.Component {
             <div class='col-xs-12'>
               <div className='box'>
                 <div className='box-header'>
-                  <h3 className='box-title'>Data Table With Full Features</h3>
+                  <h3 className='box-title'>All Teachers</h3>
+                  <a href='fake-url' class='btn btn-info btn-lg pull-right'>+ Add new</a>
                 </div>
+
                 <div className='box-body'>
+
                   <table id='example1' className='table table-bordered table-striped'>
                     <thead>
                       <tr>

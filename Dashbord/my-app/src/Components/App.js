@@ -3,14 +3,14 @@ import React from 'react'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { Menu } from './Menu'
-import { Dashboard } from '../Pages/Dashboard/Dashboard'
+import AddStudent from '../Pages/Students/AddStudent'
 
 export default class App extends React.Component {
   render () {
     return (
       <div>
         <Header />
-        <Dashboard />
+        <AddStudent />
         <Menu />
         <Footer />
       </div>
