@@ -3,11 +3,7 @@ import React from 'react'
 export default class Sidebar extends React.Component {
   render () {
     return (
-      <div>
-        <section className='gray pt-4'>
-          <div className='container-fluid'>
-            <div className='row'>
-              <div className='col-lg-3 col-md-3'>
+      <div className='col-lg-3 col-md-3'>
                 <div class='dashboard-navbar'>
                   <div className='d-user-avater'>
                     <img src='https://via.placeholder.com/500x500' className='img-fluid avater' alt />
@@ -80,10 +76,6 @@ export default class Sidebar extends React.Component {
                     </ul>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     )
   }

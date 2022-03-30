@@ -3,9 +3,7 @@ import React from 'react'
 export default class Dashboard extends React.Component {
   render () {
     return (
-      <div>
-        <section className='gray pt-4'>
-          <div className='container-fluid'>
+      <div className='col-lg-9 col-md-9 col-sm-12'>
             <div className='row'>
               <div className='col-lg-12 col-md-12 col-sm-12 pb-4'>
                 <nav aria-label='breadcrumb'>
@@ -169,9 +167,6 @@ export default class Dashboard extends React.Component {
               </div>
             </div>
           </div>
-        </section>
-      </div>
-
     )
   }
 }
