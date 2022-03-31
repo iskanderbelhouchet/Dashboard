@@ -3,7 +3,7 @@ import React from 'react'
 export default class WebsiteSettings extends React.Component {
   render () {
     return (
-      <div>
+      <div className='col-lg-9 col-md-9 col-sm-12'>
         <div className='row'>
           <div className='col-xl-12 col-lg-12 col-md-12'>
             <div className='dashboard_wrap'>
@@ -17,11 +17,11 @@ export default class WebsiteSettings extends React.Component {
                   <form>
                     <div className='form-group smalls'>
                       <label>Banner Name*</label>
-                      <input type='text' className='form-control' placeholder='Best Education Place' />
+                      <input type='text' className='form-control' placeholder='Find the most exciting online courses' />
                     </div>
                     <div className='form-group smalls'>
                       <label>Banner Sub Title*</label>
-                      <input type='text' className='form-control' placeholder='At vero eos et accusamus et iusto odio dignissimos' />
+                      <input type='text' className='form-control' placeholder='Learners around the world are launching new careers, advancing in their fields, and enriching their lives.' />
                     </div>
                     <div className='form-group smalls'>
                       <label>Cookie Status*</label>
@@ -80,20 +80,6 @@ export default class WebsiteSettings extends React.Component {
                       <div className='custom-file'>
                         <input type='file' className='custom-file-input' id='logo' />
                         <label className='custom-file-label' htmlFor='logo'>Choose file</label>
-                      </div>
-                    </div>
-                    <div className='form-group smalls'>
-                      <label>Light Logo*</label>
-                      <div className='custom-file'>
-                        <input type='file' className='custom-file-input' id='llogo' />
-                        <label className='custom-file-label' htmlFor='llogo'>Choose file</label>
-                      </div>
-                    </div>
-                    <div className='form-group smalls'>
-                      <label>Favicon*</label>
-                      <div className='custom-file'>
-                        <input type='file' className='custom-file-input' id='favi' />
-                        <label className='custom-file-label' htmlFor='favi'>Choose file</label>
                       </div>
                     </div>
                     <div className='form-group smalls'>

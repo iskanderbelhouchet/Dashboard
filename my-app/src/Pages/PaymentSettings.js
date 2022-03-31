@@ -3,7 +3,7 @@ import React from 'react'
 export default class PaymentSettings extends React.Component {
   render () {
     return (
-      <div>
+      <div className='col-lg-9 col-md-9 col-sm-12'>
         <div className='row'>
           <div className='col-xl-6 col-lg-6 col-md-12'>
             <div className='dashboard_wrap'>
@@ -20,20 +20,8 @@ export default class PaymentSettings extends React.Component {
                       <div className='simple-input'>
                         <select id='crn' className='form-control'>
                           <option value>&nbsp;</option>
-                          <option value={1}>USD</option>
-                          <option value={2}>NRI</option>
-                          <option value={3}>Yuro</option>
-                          <option value={4}>Pound</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className='form-group smalls'>
-                      <label>Currency Position</label>
-                      <div className='simple-input'>
-                        <select id='psst' className='form-control'>
-                          <option value>&nbsp;</option>
-                          <option value={1}>Left</option>
-                          <option value={2}>Right</option>
+                          <option value={1}>TND</option>
+                          <option value={2}>USD</option>
                         </select>
                       </div>
                     </div>
@@ -47,7 +35,7 @@ export default class PaymentSettings extends React.Component {
             <div className='dashboard_wrap'>
               <div className='row'>
                 <div className='col-xl-12 col-lg-12 col-md-12 mb-4'>
-                  <h6 className='m-0'>PayPal Setup</h6>
+                  <h6 className='m-0'>D17</h6>
                 </div>
               </div>
               <div className='row justify-content-center'>
@@ -67,15 +55,7 @@ export default class PaymentSettings extends React.Component {
                       </div>
                     </div>
                     <div className='form-group smalls'>
-                      <label>Client ID</label>
-                      <input type='text' className='form-control' defaultValue='JHKJHSJKFHKSJHFKJS54824' />
-                    </div>
-                    <div className='form-group smalls'>
-                      <label>Client ID Production</label>
-                      <input type='text' className='form-control' placeholder={123245} />
-                    </div>
-                    <div className='form-group smalls'>
-                      <label>Secret Key</label>
+                      <label>Api Key</label>
                       <input type='text' className='form-control' placeholder='JKHSKGFJSGJTEYUFJSFGSJ' />
                     </div>
                     <div className='form-group smalls'>
@@ -90,7 +70,7 @@ export default class PaymentSettings extends React.Component {
             <div className='dashboard_wrap'>
               <div className='row'>
                 <div className='col-xl-12 col-lg-12 col-md-12 mb-4'>
-                  <h6 className='m-0'>Stripe Settings</h6>
+                  <h6 className='m-0'>Flouci</h6>
                 </div>
               </div>
               <div className='row justify-content-center'>
@@ -110,15 +90,7 @@ export default class PaymentSettings extends React.Component {
                       </div>
                     </div>
                     <div className='form-group smalls'>
-                      <label>Client ID</label>
-                      <input type='text' className='form-control' defaultValue='JHKJHSJKFHKSJHFKJS54824' />
-                    </div>
-                    <div className='form-group smalls'>
-                      <label>Client ID Production</label>
-                      <input type='text' className='form-control' placeholder={123245} />
-                    </div>
-                    <div className='form-group smalls'>
-                      <label>Secret Key</label>
+                      <label>Api Key</label>
                       <input type='text' className='form-control' placeholder='JKHSKGFJSGJTEYUFJSFGSJ' />
                     </div>
                     <div className='form-group smalls'>

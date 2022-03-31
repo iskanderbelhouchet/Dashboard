@@ -102,10 +102,10 @@ export default class AdminNavbar extends React.Component {
                         <h4>Hi, Daniel</h4>
                       </div>
                       <ul>
-                        <li><a href='dashboard.html'><i className='fa fa-tachometer-alt' />Dashboard<span className='notti_coun style-1'>4</span></a></li>
-                        <li><a href='my-profile.html'><i className='fa fa-user-tie' />My Profile</a></li>
-                        <li><a href='messages.html'><i className='fas fa-comments' />Messages</a></li>
-                        <li><a href='login.html'><i className='fa fa-unlock-alt' />Sign Out</a></li>
+                        <li><a href='/'><i className='fa fa-tachometer-alt' />Dashboard<span className='notti_coun style-1'>4</span></a></li>
+                        <li><a href='fake-url'><i className='fa fa-user-tie' />My Profile</a></li>
+                        <li><a href='/MailBox'><i className='fas fa-comments' />Messages</a></li>
+                        <li><a href='fake-url'><i className='fa fa-unlock-alt' />Sign Out</a></li>
                       </ul>
                     </div>
                   </div>

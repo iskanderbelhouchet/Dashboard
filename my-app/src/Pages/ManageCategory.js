@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default class ManageInstructors extends React.Component {
+export default class ManageCategory extends Component {
   render () {
     return (
       <div className='col-lg-9 col-md-9 col-sm-12'>
+        {/* Row */}
         <div className='row justify-content-between'>
           <div className='col-lg-12 col-md-12 col-sm-12 pb-4'>
             <div className='dashboard_wrap d-flex align-items-center justify-content-between'>
@@ -11,19 +12,34 @@ export default class ManageInstructors extends React.Component {
                 <nav className='transparent'>
                   <ol className='breadcrumb'>
                     <li className='breadcrumb-item'><a href='#'>Home</a></li>
-                    <li className='breadcrumb-item active' aria-current='page'>Manage Instructor</li>
+                    <li className='breadcrumb-item active' aria-current='page'>Manage Category</li>
                   </ol>
                 </nav>
               </div>
             </div>
           </div>
         </div>
+        {/* /Row */}
         <div className='row'>
           <div className='col-xl-12 col-lg-12 col-md-12'>
             <div className='dashboard_wrap'>
               <div className='row'>
                 <div className='col-xl-12 col-lg-12 col-md-12 mb-4'>
-                  <h6 className='m-0'>All Instructor List</h6>
+                  <h6 className='m-0'>All Category List</h6>
+                </div>
+              </div>
+              <div className='row align-items-end mb-5'>
+                <div className='col-xl-3 col-lg-6 col-md-6 col-sm-6'>
+                  <div className='form-group smalls'>
+                    <label>Category Title</label>
+                    <input type='text' className='form-control' placeholder='First Name' />
+                  </div>
+
+                </div>
+                <div className='col-xl-2 col-lg-4 col-md-6 col-sm-6'>
+                  <div className='form-group'>
+                    <button type='button' className='btn text-white full-width theme-bg'>Add</button>
+                  </div>
                 </div>
               </div>
               <div className='row justify-content-between'>
@@ -59,47 +75,70 @@ export default class ManageInstructors extends React.Component {
                       <thead>
                         <tr>
                           <th scope='col'>#</th>
-                          <th scope='col'>Photo</th>
-                          <th scope='col'>Name</th>
-                          <th scope='col'>Email</th>
-                          <th scope='col'>Active Course</th>
+                          <th scope='col'>Title</th>
+                          <th scope='col'>Action</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <th scope='row'>1</th>
-                          <td><img src='https://via.placeholder.com/500x500' className='img-fluid circle' width={40} alt /></td>
-                          <td><div className='smalls lg'>Myrtle M. Korn</div></td>
-                          <td><span className='smalls lg'>Beltran@teleworm.us</span></td>
-                          <td><span className='smalls lg'>15 Courses</span></td>
+                          <td><h6>UI/UX Design Pattern For Succesfull Software Applications</h6></td>
+                          <td>
+                            <div className='dropdown show'>
+                              <a className='btn btn-action' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                                <i className='fas fa-ellipsis-h' />
+                              </a>
+                              <div className='drp-select dropdown-menu'>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Edit</a>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Delete</a>
+                              </div>
+                            </div>
+                          </td>
                         </tr>
                         <tr>
                           <th scope='row'>2</th>
-                          <td><img src='https://via.placeholder.com/500x500' className='img-fluid circle' width={40} alt /></td>
-                          <td><div className='smalls lg'>Laurie T. Eller</div></td>
-                          <td><span className='smalls lg'>Paxson@armyspy.com</span></td>
-                          <td><span className='smalls lg'>42 Courses</span></td>
+                          <td><h6>Basic Knowledge About Hodiernal Bharat In History</h6></td>
+                          <td>
+                            <div className='dropdown show'>
+                              <a className='btn btn-action' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                                <i className='fas fa-ellipsis-h' />
+                              </a>
+                              <div className='drp-select dropdown-menu'>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Edit</a>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Delete</a>
+                              </div>
+                            </div>
+                          </td>
                         </tr>
                         <tr>
                           <th scope='row'>3</th>
-                          <td><img src='https://via.placeholder.com/500x500' className='img-fluid circle' width={40} alt /></td>
-                          <td><span className='smalls lg'>Lucinda J. Smither</span></td>
-                          <td><span className='smalls lg'>FrankTFleck@rhyta.com</span></td>
-                          <td><span className='smalls lg'>63 Courses</span></td>
+                          <td><h6>Advance PHP Knowledge With Laravel To Make Smart Web</h6></td>
+                          <td>
+                            <div className='dropdown show'>
+                              <a className='btn btn-action' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                                <i className='fas fa-ellipsis-h' />
+                              </a>
+                              <div className='drp-select dropdown-menu'>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Edit</a>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Delete</a>
+                              </div>
+                            </div>
+                          </td>
                         </tr>
                         <tr>
                           <th scope='row'>4</th>
-                          <td><img src='https://via.placeholder.com/500x500' className='img-fluid circle' width={40} alt /></td>
-                          <td><span className='smalls lg'>Shirley L. Townsend</span></td>
-                          <td><span className='smalls lg'>CarloJone@armyspy.com</span></td>
-                          <td><span className='smalls lg'>20 Courses</span></td>
-                        </tr>
-                        <tr>
-                          <th scope='row'>5</th>
-                          <td><img src='https://via.placeholder.com/500x500' className='img-fluid circle' width={40} alt /></td>
-                          <td><span className='smalls lg'>Leonard A. Barker</span></td>
-                          <td><span className='smalls lg'>LeonAarker@rhyta.com</span></td>
-                          <td><span className='smalls lg'>56 Courses</span></td>
+                          <td><h6>The Complete Accounting &amp; Bank Financial Course 2021</h6></td>
+                          <td>
+                            <div className='dropdown show'>
+                              <a className='btn btn-action' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                                <i className='fas fa-ellipsis-h' />
+                              </a>
+                              <div className='drp-select dropdown-menu'>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Edit</a>
+                                <a className='dropdown-item' href='JavaScript:Void(0);'>Delete</a>
+                              </div>
+                            </div>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -132,6 +171,7 @@ export default class ManageInstructors extends React.Component {
           </div>
         </div>
       </div>
+
     )
   }
 }
